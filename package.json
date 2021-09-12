@@ -1,0 +1,32 @@
+{
+  "name": "node-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "koa": "^2.13.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/node": "^16.7.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon ./app/app.js",
+    "debug": "nodemon --inspect ./app/app.js",
+    "prod": "cross-env NODE_ENV=production ./app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsq19920609/node-koa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsq19920609/node-koa/issues"
+  },
+  "homepage": "https://github.com/dsq19920609/node-koa#readme"
+}
